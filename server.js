@@ -39,7 +39,7 @@ var videofeeds=[];
 
 ///////////////////////////////////////////////////////DB
 function updateFromDB(){
-  sql.connect("mssql://brendan:1brendan1@masatrump.co4trqkiqsku.us-east-1.rds.amazonaws.com:1433/masa", err => {
+  sql.connect("mssql://brendan:*removed*@masatrump.co4trqkiqsku.us-east-1.rds.amazonaws.com:1433/masa", err => {
   if(err)throw err;
     // ... error checks 
  
